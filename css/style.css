@@ -177,6 +177,10 @@ h1 {
         gap: 12px;
     }
 
+    .project-technology {
+        margin-bottom: 8px;
+    }
+
     .nav-logo {
         padding-right: 24px;
     }
