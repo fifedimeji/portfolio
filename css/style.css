@@ -161,6 +161,7 @@ h1 {
 
     .hero-card {
         flex-direction: column;
+        justify-self: center;
     }
 
     .hero-img {
