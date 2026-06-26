@@ -39,7 +39,7 @@ h1 {
     font-size: 12px;
     font-weight: 700;
     color: #0070F3;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .project-card a:hover {
@@ -161,7 +161,7 @@ h1 {
     .nav-item {
         display: none;
     }
-    
+
     .main {
         padding: 0 16px;
     }
