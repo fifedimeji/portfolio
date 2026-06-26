@@ -154,6 +154,14 @@ h1 {
 }
 
 @media (max-width: 480px) {
+    .nav-logo {
+        padding-right: 24px;
+    }
+
+    .nav-item {
+        display: none;
+    }
+    
     .main {
         padding: 0 16px;
     }
@@ -179,13 +187,5 @@ h1 {
 
     .project-technology {
         margin-bottom: 8px;
-    }
-
-    .nav-logo {
-        padding-right: 24px;
-    }
-
-    .nav-item {
-        display: none;
     }
 }
