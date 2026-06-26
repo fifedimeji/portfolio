@@ -24,6 +24,7 @@ img, picture, video, canvas, svg {
 .main {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 16px;
 }
 
 h1 {
@@ -154,13 +155,20 @@ h1 {
 }
 
 @media (max-width: 480px) {
+    .main {
+        padding: 0 16px;
+    }
+
     .hero-card {
         flex-direction: column;
-        gap: 4px;
     }
 
     .hero-img {
         display: none;
+    }
+
+    .name {
+        padding: 20px;
     }
 
     .project-grid {
